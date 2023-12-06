@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maquette</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <header>
+        <section>
+            <nav class="navbar" style="display:flex; justify-content:space-between; align-items:center;">
+                <div class="container column" style="border: #dee2e6 solid; border-width:0 0 1px 0; padding:1% 0;">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo" width="155" height="50">
+                    </a>
+                    <div class="column" style="display:flex; flex-direction:row; justify-content:flex-end; flex:3">
+                        <div class="column m-0" style="display:flex; align-items:center;">
+                            <div class="card m-0" style="margin: 0 40px 0 4px; height:fit-content; padding: 4px; background-color: none; border: none;">
+                                <div class="card-body p-0 contact" style="display:flex; flex-direction:row; box-sizing:initial; padding:0 0 0 12px; align-items:center;">
+                                    <span style="padding:0.5px 0.5px 0.5px 0.5px">
+                                        <i class="fa-solid fa-hospital"></i>
+                                    </span>
+                                    <div class="container t-center" style="padding-top: 2%; padding-bottom: 2%;">
+                                        <p class="card-subtitle text-body-secondary">88 Sunset Road</p>
+                                        <a href="#" class="card-link link">Kuta, Bali 80225</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-0" style="margin: 0 40px 0 4px; height:fit-content; padding: 4px; background-color: none; border: none;">
+                                <div class="card-body p-0 contact" style="display:flex; flex-direction:row; box-sizing:initial; padding:0 0 0 12px; align-items:center;">
+                                    <span style="padding:0.5px 0.5px 0.5px 0.5px">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </span>
+                                    <div class="container t-center" style="padding-top: 2%; padding-bottom: 2%;">
+                                        <p class="card-subtitle text-body-secondary">Call Us</p>
+                                        <a href="#" class="card-link link">+62 234 6754 345</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" style="height:fit-content; align-self:center">Primary button</button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div class="container" style="padding-bottom:1%; display:flex; align-items:center; justify-content:space-between">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div style="display: flex; align-items:center;">
+                    <h5 style="margin:0; margin-right:15px">FOLLOW US : </h5>
+                    <div style="display: flex; align-items:center; justify-content: space-around;">
+                        <a href="#" class="link"><i class="fa-brands fa-facebook-f" style="padding: 0 5px"></i></a>
+                        <a href="#" class="link"><i class="fa-brands fa-twitter" style="padding: 0 5px;"></i></a>
+                        <a href="#" class="link"><i class="fa-brands fa-instagram" style="padding: 0 5px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div style="background-image: url(images/img1.jpg); background-size:cover; padding: 15% 0 15% 0; height:75%">
+                <div class="container column flex">
+                    <h1 class="t-center" style="color: aliceblue;">Healthcare for Your Family's Health</h1>
+                    <h4 class="t-center" style="color: aliceblue;">Emergency service with...</h4>
+                    <div class="d-grid gap-2 d-md-flex" style="margin-top: 3%">
+                        <button class="btn btn-primary" type="button" style="display:flex; align-items:center;">
+                            <span style="padding:0.5px 0.5px 0.5px 0.5px; margin-right: 5px;">
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            Contact Us
+                        </button>
+                        <button class="btn btn-primary" type="button" style="display:flex; align-items:center;">
+                            <span style="padding:0.5px 0.5px 0.5px 0.5px; margin-right: 5px;">
+                                <i class="fa-solid fa-camera"></i>
+                            </span>
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container column" style="display:flex; justify-content: space-around; margin-top:-7.5%">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/round1.png" style="width:100px; align-self:center; margin-top:8px;" class="card-img-top" alt="...">
+                    <div class="card-body"  style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card space" style="width: 18rem;">
+                    <img src="images/round2.png" style="width:100px; align-self:center; margin-top:8px;" class="card-img-top" alt="...">
+                    <div class="card-body" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card space" style="width: 18rem;">
+                    <img src="images/round3.png" style="width:100px; align-self:center; margin-top:8px;" class="card-img-top" alt="...">
+                    <div class="card-body" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card space" style="width: 18rem; background: linear-gradient(#2a70ed, #38c7f6); color:aliceblue;">
+                    <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;; align-items:center;">
+                      <h5 class="card-title">Emergency Service</h5>
+                      <p class="card-text" style="padding: 5%;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary" style="background-color:aliceblue; color: black; width:90%"><p style="margin:0; color:#2a70ed;">CALL US NOW</p><p style="margin:0;">+62 361 234253</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container column" id="sec2" style="display: flex; justify-content:center; margin-top:5%; align-items:center;">
+            <div class="w" style="display:flex; flex-direction:column; width:500px; align-items:center;">
+                <h2>Medical Clinic that can trust</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi unde sunt, similique rem quibusdam cupiditate consequuntur quod corrupti aperiam adipisci.</p>
+                <ul class="p-0" style="list-style-type:none; margin:0;">
+                    <li style="display: flex; align-items:center; margin:1.3rem">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                        <div style="margin-left:5px">
+                            <h6>24 Hour Healthcare Services</h6>
+                            <p style="margin:0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </li>
+                    <li style="display: flex; align-items:center; margin:1.3rem;">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                        <div style="margin-left:5px">
+                            <h6>24 Hour Healthcare Services</h6>
+                            <p style="margin:0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                   </li>
+                   <li style="display: flex; align-items:center; margin:1.3rem;">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                        <div style="margin-left:5px">
+                            <h6>24 Hour Healthcare Services</h6>
+                            <p style="margin:0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div><img class="w" src="images/doctor.png" style="width:400px;"/></div>
+        </section>
+        <section id="sec3" style="background-color:#e6f0ff;">
+            <div class="container column" style="display:flex; flex-direction:row; justify-content:space-evenly; padding: 5% 0 5% 0;">
+                <div id="block1" style="display:flex; flex-direction:column; align-items:center;">
+                    <i class="fa-solid fa-medal"></i>
+                    <h3>20 +</h3>
+                    <p>Lorem ipsum dolor.</p>
+                </div>
+                <div class="space" id="block2" style="display:flex; flex-direction:column; align-items:center;">
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <h3>8,450 +</h3>
+                    <p>Lorem ipsum dolor.</p>
+                </div>
+                <div class="space" id="block3" style="display:flex; flex-direction:column; align-items:center;">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h3>1,250 +</h3>
+                    <p>Lorem ipsum dolor.</p>
+                </div>
+                <div class="space" id="block4" style="display:flex; flex-direction:column; align-items:center;">
+                    <i class="fa-solid fa-hospital"></i>
+                    <h3>425 +</h3>
+                    <p>Lorem ipsum dolor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="sec4">
+            <div class="column" style="display:flex; flex-direction:column; justify-content:center; text-align:center; margin-top: 4%;">
+                <h2>We Provide Best Healthcare Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div id="no-wrap" style="display:flex; flex-wrap:wrap;">
+                <div class="row row-cols-1 row-cols-md-2 g-4" style="flex:2; padding-right: calc(var(--bs-gutter-x) * .5); padding-left: calc(var(--bs-gutter-x) * .5);">
+                    <div class="col">
+                      <div class="card" style="display:flex; flex-direction:row;">
+                        <img src="images/square1.png" class="card-img-top" alt="..." style="width:100px; height:100px; padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="display:flex; flex-direction:row;">
+                        <img src="images/square2.png" class="card-img-top" alt="..." style="width:100px; height:100px; padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="display:flex; flex-direction:row;">
+                        <img src="images/square3.png" class="card-img-top" alt="..." style="width:100px; height:100px; padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.  This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="display:flex; flex-direction:row;">
+                        <img src="images/square4.png" class="card-img-top" alt="..." style="width:100px; height:100px; padding:var(--bs-card-spacer-y) var(--bs-card-spacer-x);">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="space" style="flex:1; padding-right: calc(var(--bs-gutter-x) * .5); padding-left: calc(var(--bs-gutter-x) * .5);">
+                    <div class="card text-center mb-3" style="background: linear-gradient(#2a70ed, #38c7f6); height:100%; text-align:center; display:flex; flex-direction:column; justify-content:center; padding: 0 4%">
+                        <div class="card-body" style="text-align:center; display:flex; flex-direction:column; justify-content:center; color:aliceblue">
+                          <h5 class="card-title">Opening Hours</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <div style="display:flex; justify-content:space-between; margin: 10px 0; border: #dee2e6 solid; border-width:0 0 1px 0;">
+                            <h6 style="flex:1; text-align:start">Mon - Fri</h6>
+                            <div style="display:flex; align-items:center; flex: 2; justify-content:flex-end;">
+                                <i class="fa-regular fa-clock" style="padding-right:5%"></i>
+                                <p class="card-text">6am - 10pm</p>
+                            </div>
+                          </div>
+                          <div style="display:flex; justify-content: space-between; margin: 10px 0; border: #dee2e6 solid; border-width:0 0 1px 0;">
+                            <h6 style="flex:1; text-align:start">Sat - Sun</h6>
+                            <div style="display:flex; align-items:center; flex: 2; justify-content:flex-end;">
+                                <i class="fa-regular fa-clock" style="padding-right:5%"></i>
+                                <p class="card-text">6am - 8pm</p>
+                            </div>
+                          </div>
+                          <a href="#" class="btn btn-primary" style="width:fit-content; align-self: center; margin-top: 10%; color:black; background-color:aliceblue; border:none;"><i class="fa-solid fa-phone" style="margin-right:25px;"></i>Book Appointment</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="column" style="display:flex; margin-top: 5%; margin-bottom: 5%;">
+                <div style="flex:1; display: flex; justify-content:center;">
+                    <img src="images/doctor2.png" style="width:75%;"/>
+                </div>
+                <div style="flex:1; align-items:center; justify-content:center; display:flex;">
+                    <div style="flex:0.75;align-self:center;">
+                        <h2>Find the right Medication for you</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos delectus, id quod ad quaerat excepturi qui dolore molestiae. </p>
+                        <ul class="list-group list-group-flush" style="margin: 5% 0;">
+                            <li class="nav-item dropdown list-group-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown list-group-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown list-group-item">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="#" class="link" style="margin-top: 10%;"><i class="fa-solid fa-circle-play" style="margin: 0 3%"></i>Watch the video</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="background: linear-gradient(#e6f0ff, #ffff)">
+        <div class="container column" style="display:flex; ">
+            <div style="flex:1; padding-top: 5%">
+                <h2>Make Appointment</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore laborum nemo veritatis libero alias nam at, ex earum iusto totam ipsam, numquam eum, blanditiis qui consequuntur ducimus? Praesentium, veniam officia?</p>
+                <div class="column" style="display: flex; ">
+                    <div class="zéro" style="padding: 0 3%">
+                        <h3>Denpasar, Bali</h3>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p style="margin:0; padding-left: 10px;">Jl. Niti Mandala, Renon, Bali, Indonesia – 80225</p>
+                        </div>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-phone"></i>
+                            <p style="margin:0; padding-left: 10px;">+62 361 234 4567</p>
+                        </div>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p style="margin:0; padding-left: 10px;">contact@domain.com</p>
+                        </div>
+                    </div>
+                    <div class="zéro" style="padding: 0 3%">
+                        <h3>Seminyak, Bali</h3>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p style="margin:0; padding-left: 10px;">Jl. Oberoi X 69, Kuta, Bali, Indonesia – 80234</p>
+                        </div>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-phone"></i>
+                            <p style="margin:0; padding-left: 10px;">+62 361 234 4567</p>
+                        </div>
+                        <div style="display:flex; align-items:center; padding-bottom: 10px">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p style="margin:0; padding-left: 10px;">contact@domain.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="flex:1;">
+                <div class="card space" style="padding: 5%; margin-top: -7.5%">
+                    <div class="mb-3">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" style="font-size: 21px;">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your e-mail" style="font-size: 21px;">
+                    </div>
+                    <div class="mb-3">
+                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="jj/mm/aa" style="font-size: 21px;">
+                    </div>
+                    <select class="form-select mb-3" aria-label="Default select example" style="font-size: 21px;">
+                        <option selected>Select services</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message" style="font-size: 21px;"></textarea>
+                    </div>
+                    <a href="#" class="btn btn-primary" style="width:fit-content; align-self: center; font-size: 21px;">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-top:5%">
+            <h2>Our partners</h2>
+            <div class="wrapping" style="padding: 2.5% 0;display: flex; justify-content:space-evenly; width: 100%">
+                <a class="wrapping-img" href="#"><img class="footerlogo" src="images/logo1.png" style="width: 212px; height: 72px; margin: 0 2%"></a>
+                <a class="wrapping-img" href="#"><img class="footerlogo" src="images/logo2.png" style="width: 212px; height: 72px; margin: 0 2%"></a>
+                <a class="wrapping-img" href="#"><img class="footerlogo" src="images/logo3.png" style="width: 212px; height: 72px; margin: 0 2%"></a>
+                <a class="wrapping-img" href="#"><img class="footerlogo" src="images/logo4.png" style="width: 212px; height: 72px; margin: 0 2%"></a>
+            </div>
+        </div>
+        <div class="container column" style="margin-top:5%; background-color: #e6f0ff; border-radius: 15px; display:flex; justify-content: space-between; padding:2.5%;">
+            <h2>Stay connected with MedKit</h2>
+            <div>
+                <a href="#" class="link" style="font-size: var(--icon-size,25px); line-height: var(--icon-size,25px); width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); background-color:#ffff; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer;"><i class="fa-brands fa-facebook-f text-align"></i></a>
+                <a href="#" class="link" style="font-size: var(--icon-size,25px); line-height: var(--icon-size,25px); width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); background-color:#ffff; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer;"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="link" style="font-size: var(--icon-size,25px); line-height: var(--icon-size,25px); width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); background-color:#ffff; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="link" style="font-size: var(--icon-size,25px); line-height: var(--icon-size,25px); width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); background-color:#ffff; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer;"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="link" style="font-size: var(--icon-size,25px); line-height: var(--icon-size,25px); width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em))); background-color:#ffff; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; cursor: pointer;"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="container column" style="border: #dee2e6 solid; border-width:0 0 1px 0; padding: 3% 0; display:flex;">
+            <div class="zéro margin-after  margin-before" style="display: flex; flex-direction:column; padding: 0 2%">
+                <h3 style="width:max-content;">Quick Links</h3>
+                <a href="" class="link">Home</a>
+                <a href="" class="link">About Us</a>
+                <a href="" class="link">Services</a>
+                <a href="" class="link">Contact</a>
+            </div>
+            <div class="zéro margin-after" style="display: flex; flex-direction:column; padding: 0 2%"> 
+                <h3 style="width:max-content;">Other Pages</h3>
+                <a href="#" class="link">Job Vacancy</a>
+                <a href="#" class="link">Charity Program</a>
+                <a href="#" class="link">Privacy & Policy</a>
+                <a href="#" class="link">Term of Use</a>
+            </div>
+            <div class="zéro margin-after" style="display: flex; flex-direction:column; padding: 0 2%">
+                <h3 style="width:max-content;">Contact Info</h3>
+                <a style="display: flex; align-items:center"><i class="fa-solid fa-location-dot"></i><p style="margin:0; padding-left: 10px;">Jl. Niti Mandala, Renon, Bali, Indonesia – 80225</p></a>
+                <a style="display: flex; align-items:center"><i class="fa-solid fa-phone"></i><p style="margin:0; padding-left: 10px;">+62 361 234 4567</p></a>
+                <a style="display: flex; align-items:center"><i class="fa-solid fa-envelope"></i><p style="margin:0; padding-left: 10px;">contact@domain.com</p></a>
+            </div>
+            <div class="zéro margin-after" style="display: flex; flex-direction:column; padding: 0 2%">
+                <h3>Make an Appointment</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi in maiores vero, aliquid cumque debitis et quod voluptatibus nostrum!</p>
+                <a href="#" class="btn btn-primary" style="width:fit-content; align-self: center; font-size: 21px;">Go somewhere</a>
+            </div>
+        </div>
+        <div class="container column" style="margin-top: 2%; padding:0; display:flex; justify-content:space-between; margin-bottom: 5%; ">
+            <div class="space-between" style="width:fit-content;">
+                <img src="images/logo.png" alt="logo" width="155" height="50">
+            </div>
+            <div class="column" style="display:flex; justify-content:space-between; align-items: center; width: 70%">
+                <div class="space-between" style="margin: 0 10%; text-align:center;">
+                    <p style="margin: 0;">Template by S.Leconte</p>
+                </div>
+                <div class="space-between" style="text-align:center">
+                    <p style="margin: 0;">Copyright © 2023. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
