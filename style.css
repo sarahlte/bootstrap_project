@@ -12,6 +12,13 @@
 }
 
 @media screen and (max-width: 767px) {
+    .card-body{
+        border: none;
+        padding: 0;
+
+
+
+    }
     .column {
         flex-direction:column!important;
         align-items:center!important;
@@ -70,9 +77,22 @@
         text-align: left;
     }
     .contact {
-        border: 1px solid;
-        border-radius: 10px;
-        width: 200px;
-        padding: 10px  10px 10px 20px!important;
+        width: 145px;
+        height: 50px;
+        font-size: 14px;
     }
+    .contact-div{
+        display: flex;
+    }
+    .no-m{
+        margin-left: 10px;
+        padding: 0!important
+    }
+    #mini{
+        flex-direction: row!important;
+        flex-wrap: wrap;
+    }
+
+
+
 }
